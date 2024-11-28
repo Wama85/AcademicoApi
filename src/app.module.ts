@@ -19,7 +19,7 @@ import {AuthModule} from './auth/auth.module'
       type: 'mysql',
       host: '207.38.88.29',
       port: 3306,
-      username: 'sis424',
+      username: 'sisw424',
       password: 'Wama+Lilian#1185',
       database: 'sisw424_registroEstudiantes',
       entities: [__dirname+'/**/*.entity{.ts,.js}'],
