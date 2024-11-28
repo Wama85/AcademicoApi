@@ -17,9 +17,12 @@ import {AuthModule} from './auth/auth.module'
   imports: [MateriasModule
     ,TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '207.38.88.29',
+     // host: 'boyibbdmvtozlivut10o-mysql.services.clever-cloud.com',
+     host:'207.38.88.29',
       port: 3306,
+      //username: 'uxtwiytdyfsbrush',
       username: 'sisw424',
+      //password: 'WPCVsvFm8wSYPrn98Szd',
       password: 'Wama+Lilian#1185',
       database: 'sisw424_registroEstudiantes',
       entities: [__dirname+'/**/*.entity{.ts,.js}'],
